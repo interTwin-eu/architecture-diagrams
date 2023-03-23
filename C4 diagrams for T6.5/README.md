@@ -22,7 +22,7 @@ with the physical twin, living in the real world. Sometimes, this connection is 
 infrastructure (e.g., satellite, particles detector sensors), which may be needed to filter, pre-process or buffer
 real-time data collected from the physical twin, and it is usually located close to the use case (e.g., on-prem servers).
 
-![System context](./img/System%20context.png)
+![System context](./img/System_context.png)
 
 ## Containers in the DTE
 
@@ -40,7 +40,7 @@ including domain-specific tools introduced by some thematic module (e.g., Geant4
 a workflow need to access computation and storage resources made available by some infrastructure provider. This is
 mediated by some abstraction framework (e.g., Spark, OpenEO).  
 
-![DTE core containers](./img/DTE%20core%20containers.png)
+![DTE core containers](./img/DTE_core_containers.png)
 
 ## Components of the AI container (T6.5)
 
@@ -62,4 +62,4 @@ inference workflow. There may be multiple versions available for the same ML mod
 version to deploy as the "living" DT. Once the full DT is deployed as a workflow, it can process real-time streams of
 data from the real world, and the experimenter can interact with it (e.g., performing experiments).
 
-![AI ML container](./img/AI%20ML%20container.png)
+![AI ML container](./img/AI_ML_container.png)

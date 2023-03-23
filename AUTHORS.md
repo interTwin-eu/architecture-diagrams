@@ -2,7 +2,7 @@
 
 ## Maintainers
 
-Full Name <email>
+Full Name \<email\>
 
 ## Contributors
 

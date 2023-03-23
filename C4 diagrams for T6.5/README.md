@@ -22,6 +22,8 @@ with the physical twin, living in the real world. Sometimes, this connection is 
 infrastructure (e.g., satellite, particles detector sensors), which may be needed to filter, pre-process or buffer
 real-time data collected from the physical twin, and it is usually located close to the use case (e.g., on-prem servers).
 
+![System context](./img/System_context.png)
+
 ## Containers in the DTE
 
 The DT developer interacts with the DTE PaaS through some UI, which is strongly related to the DTE-core orchestrator,
@@ -37,6 +39,8 @@ The workflow composition tool is responsible for orchestrating the execution of 
 including domain-specific tools introduced by some thematic module (e.g., Geant4, HydroMT). Most likely, the steps of
 a workflow need to access computation and storage resources made available by some infrastructure provider. This is
 mediated by some abstraction framework (e.g., Spark, OpenEO).  
+
+![DTE core containers](./img/DTE_core_containers.png)
 
 ## Components of the AI container (T6.5)
 
@@ -57,3 +61,5 @@ deployed. The user chooses a pre-trained ML model from the model registry, which
 inference workflow. There may be multiple versions available for the same ML model, and the user can choose which
 version to deploy as the "living" DT. Once the full DT is deployed as a workflow, it can process real-time streams of
 data from the real world, and the experimenter can interact with it (e.g., performing experiments).
+
+![AI ML container](./img/AI_ML_container.png)

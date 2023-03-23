@@ -6,4 +6,4 @@ Full Name <email>
 
 ## Contributors
 
-[All contributors](https://github.com/EGI-Federation/<REPOSITORY>/graphs/contributors)
+[All contributors](https://github.com/interTwin-eu/REPOSITORY/graphs/contributors)

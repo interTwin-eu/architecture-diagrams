@@ -14,7 +14,6 @@ If you wish to discuss anything related to the project, please open a
 
 [GitHub issue](https://github.com/interTwin-eu/architecture-diagrams/issues/new).
 
-
 ## Contribution Process
 
 Before proposing a contribution via pull request (PR), ideally there is an open

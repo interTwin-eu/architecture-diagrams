@@ -1,43 +1,48 @@
-# Template for interTwin repositories
+# Architecture diagrams
 
-This repository is to be used as a repository template for creating a new interTwin
-repository, and is aiming at being a clean basis promoting currently accepted
-good practices.
+## Instructions for Excalidraw
 
-It includes:
+Excalidraw is an open-source tool which can be used for a large variety of sketches.
 
-- License information
-- Copyright and author information
-- Code of conduct and contribution guidelines
-- Templates for PR and issues
-- Code owners file for automatic assignment of PR reviewers
-- [GitHub actions](https://github.com/features/actions) workflows for linting
-  and checking links
+To open an existing diagram (with `.excalidraw` extension), or to create a new one, you have two options:
 
-Content is based on:
+1. Use the Excalidraw [from the browser](https://excalidraw.com/). To open an existing file: from top-left "sandwich icon"
+select "Open", and browse the desired `.excalidraw` file.
+2. Install [Obsidian](https://obsidian.md/) and its [Excalidraw extension](https://github.com/zsviczian/obsidian-excalidraw-plugin).
+To install the desired extension, from Obsidian, use the bottom-left gear ("Setting" page), select "Community plugins"
+from the left menu bar, activate them if needed. Now, by clicking on the "Browse" button, you can search and install
+"Excalidraw" extension. To create a new drawing, right-click on a folder in your Obsidian vault, in which you want to
+store your drawing, and select "Create new drawing". Like this: ![create-drawing](Excalidraw/img/tutorial-01.png)
 
-- [Contributor Covenant](http://contributor-covenant.org)
-- [Semantic Versioning](https://semver.org/)
-- [Chef Cookbook Contributing Guide](https://github.com/chef-cookbooks/community_cookbook_documentation/blob/master/CONTRIBUTING.MD)
+### C4 model library
 
-## GitHub repository management rules
+To help you save time, we already created an Excalidraw library for the C4 model, which you can import in Excalidraw.
+This library already provides the layout for the components of the C4 model. You just have to change their text content.
 
-All changes should go through Pull Requests.
+![sample-library](Excalidraw/img/tutorial-04.png)
 
-### Merge management
+To import the library:
 
-- Only squash should be enforced in the repository settings.
-- Update commit message for the squashed commits as needed.
+1. First, [download it from here](Excalidraw/c4-model-architecture-design.excalidrawlib).
+2. Import it in Excalidraw. The procedure is the same for both the web version or the Obsidian plugin. Top-left button
+"Library", select the three dots icons, and click on "Open". Select the library (`.excalidrawlib` file) from where you
+downloaded it (e.g., "Downloads" folder). ![open-library](Excalidraw/img/tutorial-02.png)
+3. Scroll down in Excalidraw's library and look for the imported C4 template diagrams. ![my-library](Excalidraw/img/tutorial-03.png)
+4. Click on the items in the library to import them in your sketch.
 
-### Protection on main branch
+### Save a sketch
 
-To be configured on the repository settings.
+If you work with Excalidraw as a plugin for Obsidian, sketches are automatically saved as
+Markdown files. However, you can export them as:
 
-- Require pull request reviews before merging
-  - Dismiss stale pull request approvals when new commits are pushed
-  - Require review from Code Owners
-- Require status checks to pass before merging
-  - GitHub actions if available
-  - Other checks as available and relevant
-  - Require branches to be up to date before merging
-- Include administrators
+- PNG, SVG: right-click on the sketch and select "Copy to clipboard as PNG" (or SVG)
+- `.excalidraw` format: click on the top-right three dots icon, and select "Export to an .Excalidraw file". ![export-excalidraw](Excalidraw/img/tutorial-05.png)
+
+When using Excalidraw from browser, saving is easier: click on the top-left sandwich icon and select "Save to...".
+
+**IMPORTANT**: sketches must be converted to `.excalidraw` format before being uploaded to this repository.
+Please do not upload sketches in Markdown format, because it is not readable outside Obsidian.
+
+### Other resources
+
+- [Showcasing Excalidraw in Obsidian](https://www.youtube.com/watch?v=o0exK-xFP3k)

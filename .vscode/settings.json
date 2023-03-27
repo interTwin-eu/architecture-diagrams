@@ -12,8 +12,9 @@
           }
     },
     "cSpell.words": [
-        "Excalidraw",
-        "Geant",
-        "Horovod"
+      "Excalidraw",
+      "excalidrawlib",
+      "Geant",
+      "Horovod"
     ]
 }

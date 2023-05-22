@@ -6,3 +6,4 @@ DTE blueprint architecture, based on a co-designed model, serves as the foundati
 The platform adheres to open standards and interoperability, aiming to develop a standardized approach to DT implementation.
 This promotes collaboration and innovation across scientific disciplines.
 This will facilitate collaboration and foster innovation in the field of DT development.
+

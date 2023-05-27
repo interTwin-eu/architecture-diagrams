@@ -1,106 +1,105 @@
 <mxfile host="65bd71144e" pages="2">
     <diagram id="XjhzDQteyE9ePMWk_pe2" name="DTE">
-        <mxGraphModel dx="1858" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2545" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <object placeholders="1" c4Name="Scientist" c4Type="Person" c4Description="Supports their research with domain-specific DTs. Interacts with &quot;living DTs." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-1">
                     <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
-                        <mxGeometry x="480" y="10" width="200" height="180" as="geometry"/>
-                    </mxCell>
-                </object>
-                <object placeholders="1" c4Name="DT Developer" c4Type="Person" c4Description="Defines use case specific DT's." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-2">
-                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
-                        <mxGeometry x="90" y="360" width="200" height="180" as="geometry"/>
+                        <mxGeometry x="430" y="59" width="200" height="180" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="DT application" c4Type="Container" c4Description="DT application + UI." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-3">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="460" y="250" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="180" y="299" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Access &quot;living DT's&quot;" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-5">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-1" target="ag-keCTSZu-AHPG3-jmG-3" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="460" y="370" as="sourcePoint"/>
-                            <mxPoint x="700" y="370" as="targetPoint"/>
+                            <mxPoint x="460" y="419" as="sourcePoint"/>
+                            <mxPoint x="700" y="419" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="Thematic modules" c4Type="Container" c4Description="Provides domain specific tools." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-6">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="460" y="420" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="180" y="469" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Build DT application" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-7">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-6" target="ag-keCTSZu-AHPG3-jmG-3" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="290" y="270" as="sourcePoint"/>
-                            <mxPoint x="530" y="270" as="targetPoint"/>
+                            <mxPoint x="290" y="319" as="sourcePoint"/>
+                            <mxPoint x="530" y="319" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Develop DT&#10;thematic modules" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-8">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-2" target="ag-keCTSZu-AHPG3-jmG-6" edge="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ag-keCTSZu-AHPG3-jmG-6" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="290" y="270" as="sourcePoint"/>
-                            <mxPoint x="530" y="270" as="targetPoint"/>
+                            <mxPoint y="349" as="sourcePoint"/>
+                            <mxPoint x="530" y="319" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="Repository" c4Type="Software System" c4Description="Stores DT application." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-9">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="70" y="80" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="70" y="89" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Pushes/pull DT application." label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-10">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-2" target="ag-keCTSZu-AHPG3-jmG-9" edge="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ag-keCTSZu-AHPG3-jmG-9" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="290" y="380" as="sourcePoint"/>
-                            <mxPoint x="530" y="380" as="targetPoint"/>
+                            <mxPoint y="289" as="sourcePoint"/>
+                            <mxPoint x="530" y="429" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Pull DT&#10;application" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-11">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-1" target="ag-keCTSZu-AHPG3-jmG-9" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="290" y="380" as="sourcePoint"/>
-                            <mxPoint x="530" y="380" as="targetPoint"/>
+                            <mxPoint x="290" y="429" as="sourcePoint"/>
+                            <mxPoint x="530" y="429" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="Workflow tools" c4Type="Container" c4Description="Define, provide and run workflows.&#10;Provides a UI for developers." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-12">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="460" y="610" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="180" y="659" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Access workflow services" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-14">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-6" target="ag-keCTSZu-AHPG3-jmG-12" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="290" y="610" as="sourcePoint"/>
-                            <mxPoint x="530" y="610" as="targetPoint"/>
+                            <mxPoint x="290" y="659" as="sourcePoint"/>
+                            <mxPoint x="530" y="659" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Develop DT application" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-15">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-2" target="ag-keCTSZu-AHPG3-jmG-3" edge="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-39" target="ag-keCTSZu-AHPG3-jmG-3" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="290" y="380" as="sourcePoint"/>
-                            <mxPoint x="530" y="380" as="targetPoint"/>
+                            <mxPoint x="290" y="429" as="sourcePoint"/>
+                            <mxPoint x="530" y="429" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Develop workflow and related tools" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-18">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-2" target="ag-keCTSZu-AHPG3-jmG-12" edge="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-39" target="ag-keCTSZu-AHPG3-jmG-12" edge="1">
                         <mxGeometry x="0.0857" y="30" width="240" relative="1" as="geometry">
-                            <mxPoint x="180" y="610" as="sourcePoint"/>
-                            <mxPoint x="530" y="380" as="targetPoint"/>
+                            <mxPoint x="180" y="659" as="sourcePoint"/>
+                            <mxPoint x="530" y="429" as="targetPoint"/>
                             <mxPoint as="offset"/>
+                            <Array as="points">
+                                <mxPoint x="50" y="379"/>
+                                <mxPoint x="50" y="719"/>
+                            </Array>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <mxCell id="ag-keCTSZu-AHPG3-jmG-24" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="180" y="780" width="520" height="200" as="geometry"/>
+                    <mxGeometry x="40" y="829" width="520" height="200" as="geometry"/>
                 </mxCell>
                 <object placeholders="1" c4Name="ML Validation" c4Type="Container" c4Description="High level validation of trained ML models." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-21">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="ag-keCTSZu-AHPG3-jmG-24" vertex="1">
@@ -118,7 +117,7 @@
                     </mxCell>
                 </object>
                 <mxCell id="ag-keCTSZu-AHPG3-jmG-50" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="-605" y="140" width="605" height="250" as="geometry"/>
+                    <mxGeometry x="-605" y="189" width="630" height="250" as="geometry"/>
                 </mxCell>
                 <object placeholders="1" c4Name="Storage Input" c4Type="Software System" c4Description="Description of software system." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-38">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="ag-keCTSZu-AHPG3-jmG-50" vertex="1">
@@ -151,46 +150,56 @@
                         </mxGeometry>
                     </mxCell>
                 </object>
+                <object label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="h6rR-sYvpGJQAhA7NCHZ-5">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="ag-keCTSZu-AHPG3-jmG-50">
+                        <mxGeometry x="345" y="-180" width="285" height="420" as="geometry"/>
+                    </mxCell>
+                </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Get filtered and cleaned data" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-52">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-26" target="ag-keCTSZu-AHPG3-jmG-39" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="-300" y="570" as="sourcePoint"/>
-                            <mxPoint x="-60" y="570" as="targetPoint"/>
+                            <mxPoint x="-300" y="619" as="sourcePoint"/>
+                            <mxPoint x="-60" y="619" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="-260" y="539"/>
+                                <mxPoint x="-260" y="409"/>
+                                <mxPoint x="-180" y="409"/>
+                            </Array>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="ML Language" c4Type="Container" c4Description="Development system for ML models." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-25">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="-650" y="490.0048717948718" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="-650" y="539.0048717948719" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="ML model" c4Type="Container" c4Description="Description of software system." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-26">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="-240" y="489.99717948717944" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="-240" y="538.9971794871794" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Compilation of the ML&#10;using an specific language&#10;and related libraries" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-31">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-26" target="ag-keCTSZu-AHPG3-jmG-25" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="300" y="990.6410256410256" as="sourcePoint"/>
-                            <mxPoint x="540" y="990.6410256410256" as="targetPoint"/>
+                            <mxPoint x="300" y="1039.6410256410256" as="sourcePoint"/>
+                            <mxPoint x="540" y="1039.6410256410256" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="ML retrainig" c4Type="ontainer" c4Description="Retraining and data adquisition operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-33">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="-650" y="809.9971794871794" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="-650" y="858.9971794871794" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Add retraining&#10;operations if needed" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-34">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-26" target="ag-keCTSZu-AHPG3-jmG-33" edge="1">
                         <mxGeometry x="-0.1219" y="10" width="240" relative="1" as="geometry">
-                            <mxPoint x="240" y="1108.2051282051282" as="sourcePoint"/>
-                            <mxPoint x="220" y="1057.8205128205127" as="targetPoint"/>
+                            <mxPoint x="240" y="1157.2051282051282" as="sourcePoint"/>
+                            <mxPoint x="220" y="1106.8205128205127" as="targetPoint"/>
                             <Array as="points">
-                                <mxPoint x="-180" y="730"/>
-                                <mxPoint x="-330" y="730"/>
-                                <mxPoint x="-330" y="870"/>
+                                <mxPoint x="-180" y="779"/>
+                                <mxPoint x="-330" y="779"/>
+                                <mxPoint x="-330" y="919"/>
                             </Array>
                             <mxPoint as="offset"/>
                         </mxGeometry>
@@ -198,71 +207,81 @@
                 </object>
                 <object placeholders="1" c4Name="Event-based retraining" c4Type="Software System" c4Description="Operations related to even-based retraining and ML workflow related operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-35">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="-650" y="630.0048717948719" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="-650" y="679.0048717948719" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Workflow and event-based retraining configuration" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-36">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-33" target="ag-keCTSZu-AHPG3-jmG-35" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="-250" y="721.9230769230769" as="sourcePoint"/>
-                            <mxPoint x="-10" y="721.9230769230769" as="targetPoint"/>
+                            <mxPoint x="-250" y="770.9230769230769" as="sourcePoint"/>
+                            <mxPoint x="-10" y="770.9230769230769" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="DT modelling" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-37">
                     <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="-660" y="470" width="680" height="510" as="geometry"/>
+                        <mxGeometry x="-660" y="519" width="680" height="510" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="Computing GPU" c4Type="Container" c4Description="Computing GPU configuration and management process." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-46">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-                        <mxGeometry x="-240" y="780" width="240" height="120" as="geometry"/>
+                        <mxGeometry x="-240" y="829" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="GPU related process" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-47">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-26" target="ag-keCTSZu-AHPG3-jmG-46" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="-50" y="1330" as="sourcePoint"/>
-                            <mxPoint x="190" y="1330" as="targetPoint"/>
+                            <mxPoint x="-50" y="1379" as="sourcePoint"/>
+                            <mxPoint x="190" y="1379" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Model development" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-55">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-2" target="ag-keCTSZu-AHPG3-jmG-26" edge="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-39" target="ag-keCTSZu-AHPG3-jmG-26" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="-290" y="410" as="sourcePoint"/>
-                            <mxPoint x="-50" y="410" as="targetPoint"/>
-                        </mxGeometry>
-                    </mxCell>
-                </object>
-                <object placeholders="1" c4Type="Relationship" c4Description="Data adquisition development&#10;and configuration" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-56">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-2" target="ag-keCTSZu-AHPG3-jmG-39" edge="1">
-                        <mxGeometry x="-0.1853" y="-30" width="240" relative="1" as="geometry">
-                            <mxPoint x="-290" y="410" as="sourcePoint"/>
-                            <mxPoint x="-50" y="410" as="targetPoint"/>
-                            <mxPoint x="-1" as="offset"/>
+                            <mxPoint x="-290" y="459" as="sourcePoint"/>
+                            <mxPoint x="-50" y="459" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="-120" y="489"/>
+                                <mxPoint x="-120" y="489"/>
+                            </Array>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Defines Monitoring tools and directives" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-57">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-12" target="ag-keCTSZu-AHPG3-jmG-22" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="180" y="590" as="sourcePoint"/>
-                            <mxPoint x="420" y="590" as="targetPoint"/>
+                            <mxPoint x="180" y="639" as="sourcePoint"/>
+                            <mxPoint x="420" y="639" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" c4Description="Defines ML validation directives" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="ag-keCTSZu-AHPG3-jmG-59">
                     <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ag-keCTSZu-AHPG3-jmG-12" target="ag-keCTSZu-AHPG3-jmG-21" edge="1">
-                        <mxGeometry width="240" relative="1" as="geometry">
-                            <mxPoint x="180" y="590" as="sourcePoint"/>
-                            <mxPoint x="420" y="590" as="targetPoint"/>
+                        <mxGeometry x="0.048" y="-10" width="240" relative="1" as="geometry">
+                            <mxPoint x="180" y="639" as="sourcePoint"/>
+                            <mxPoint x="420" y="639" as="targetPoint"/>
                             <Array as="points">
-                                <mxPoint x="580" y="740"/>
-                                <mxPoint x="620" y="740"/>
-                                <mxPoint x="620" y="770"/>
-                                <mxPoint x="570" y="770"/>
+                                <mxPoint x="300" y="789"/>
+                                <mxPoint x="420" y="789"/>
+                                <mxPoint x="420" y="809"/>
+                                <mxPoint x="430" y="809"/>
                             </Array>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="DT Developer" c4Type="Person" c4Description="Defines use case specific DT's." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="h6rR-sYvpGJQAhA7NCHZ-1">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+                        <mxGeometry x="-220" y="29" width="200" height="180" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Development tasks" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="h6rR-sYvpGJQAhA7NCHZ-2">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h6rR-sYvpGJQAhA7NCHZ-1">
+                        <mxGeometry width="240" relative="1" as="geometry">
+                            <mxPoint x="-50" y="429" as="sourcePoint"/>
+                            <mxPoint x="-120" y="259" as="targetPoint"/>
+                            <mxPoint as="offset"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
@@ -270,7 +289,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Proposal" id="mxJO1-o-9jQmz9m5Yl7F">
-        <mxGraphModel dx="2063" dy="1974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1881" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -289,12 +308,12 @@
                         <mxGeometry x="555" y="280" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <mxCell id="GSvHy8r03PpKkLsAPvsy-19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="hbLvOvz2ikI_T-p2YJwJ-4">
+                <mxCell id="GSvHy8r03PpKkLsAPvsy-19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" parent="1" source="hbLvOvz2ikI_T-p2YJwJ-4" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="10" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="GSvHy8r03PpKkLsAPvsy-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hbLvOvz2ikI_T-p2YJwJ-4">
+                <mxCell id="GSvHy8r03PpKkLsAPvsy-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hbLvOvz2ikI_T-p2YJwJ-4" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="570" as="targetPoint"/>
                         <Array as="points">
@@ -308,31 +327,31 @@
                         <mxGeometry x="-290" y="340" width="200" height="180" as="geometry"/>
                     </mxCell>
                 </object>
-                <mxCell id="GSvHy8r03PpKkLsAPvsy-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GSvHy8r03PpKkLsAPvsy-1" target="GSvHy8r03PpKkLsAPvsy-2">
+                <mxCell id="GSvHy8r03PpKkLsAPvsy-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GSvHy8r03PpKkLsAPvsy-1" target="GSvHy8r03PpKkLsAPvsy-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <object placeholders="1" c4Name="Scientist" c4Type="Person" c4Description="Description of person." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GSvHy8r03PpKkLsAPvsy-1">
-                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
                         <mxGeometry x="325" y="-110" width="200" height="180" as="geometry"/>
                     </mxCell>
                 </object>
-                <mxCell id="GSvHy8r03PpKkLsAPvsy-11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GSvHy8r03PpKkLsAPvsy-2">
+                <mxCell id="GSvHy8r03PpKkLsAPvsy-11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GSvHy8r03PpKkLsAPvsy-2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="425.5714285714289" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <object placeholders="1" c4Name="DT application" c4Type="Software System" c4Description="Description of software system." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GSvHy8r03PpKkLsAPvsy-2">
-                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
                         <mxGeometry x="305" y="110" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="Thematic capabilities" c4Type="ContainerScopeBoundary" c4Application="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="GSvHy8r03PpKkLsAPvsy-4">
-                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
                         <mxGeometry x="10" y="260" width="810" height="190" as="geometry"/>
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" id="GSvHy8r03PpKkLsAPvsy-14">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
                             <mxPoint x="430" y="450" as="sourcePoint"/>
                             <mxPoint x="430" y="490" as="targetPoint"/>
@@ -340,14 +359,14 @@
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Type="Relationship" id="GSvHy8r03PpKkLsAPvsy-17">
-                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
                         <mxGeometry width="240" relative="1" as="geometry">
                             <mxPoint x="420" y="690" as="sourcePoint"/>
                             <mxPoint x="420" y="740" as="targetPoint"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
-                <mxCell id="GSvHy8r03PpKkLsAPvsy-22" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="GSvHy8r03PpKkLsAPvsy-22" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="10" y="740" width="810" height="170" as="geometry"/>
                 </mxCell>
                 <object placeholders="1" c4Name="Orchestration" c4Type="Software System" c4Description="It assigns storage and compute resources to the relevant parts of a workflow to execute complex tasks, based on static configurations and dynamic data collected from previous runs." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="hbLvOvz2ikI_T-p2YJwJ-8">
@@ -360,12 +379,12 @@
                         <mxGeometry x="430" y="20" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="Core capabilities" c4Type="ContainerScopeBoundary" c4Application="Infrastructure" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="GSvHy8r03PpKkLsAPvsy-8">
-                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="GSvHy8r03PpKkLsAPvsy-22">
+                <object placeholders="1" c4Name="Infrastructure" c4Type="ContainerScopeBoundary" c4Application="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="GSvHy8r03PpKkLsAPvsy-8">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="GSvHy8r03PpKkLsAPvsy-22" vertex="1">
                         <mxGeometry width="810" height="170" as="geometry"/>
                     </mxCell>
                 </object>
-                <mxCell id="GSvHy8r03PpKkLsAPvsy-26" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="GSvHy8r03PpKkLsAPvsy-26" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="10" y="490" width="810" height="200" as="geometry"/>
                 </mxCell>
                 <object placeholders="1" c4Name="Quality verification" c4Type="Software System" c4Description="It is a toolkit that provides developers with the possibility to design and validate DT models, ensuring the quality, reliability, and accuracy of application outputs." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="hbLvOvz2ikI_T-p2YJwJ-5">
@@ -384,7 +403,7 @@
                     </mxCell>
                 </object>
                 <object placeholders="1" c4Name="Core capabilities" c4Type="ContainerScopeBoundary" c4Application="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="GSvHy8r03PpKkLsAPvsy-7">
-                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="GSvHy8r03PpKkLsAPvsy-26">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="GSvHy8r03PpKkLsAPvsy-26" vertex="1">
                         <mxGeometry width="810" height="200" as="geometry"/>
                     </mxCell>
                 </object>

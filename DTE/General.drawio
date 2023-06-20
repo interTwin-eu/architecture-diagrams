@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Página-1" id="LbTCoHas64MiIJbPPArk">
-        <mxGraphModel dx="450" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1031" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -19,7 +19,7 @@
                 <mxCell id="VXmdEdHr-MFw6Ti4g2za-11" value="DT App" style="rounded=1;whiteSpace=wrap;html=1;" parent="pVFWaNYkqrsmfqf0tAeH-1" vertex="1">
                     <mxGeometry x="650" y="30" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVFWaNYkqrsmfqf0tAeH-7" value="Scientisit" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
+                <mxCell id="pVFWaNYkqrsmfqf0tAeH-7" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="115" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVFWaNYkqrsmfqf0tAeH-8" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">

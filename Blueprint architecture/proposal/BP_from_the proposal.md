@@ -1,4 +1,4 @@
-# The concept
+# The proposal
 
 The *Digital Twin Engine* (*DTE*) is an open-source integrated platform based on open standards, APIs and protocols that offers the capability to integrate with application-specific *Digital Twins* (*DTs*). Its functional specifications and implementation are based on a co-designed interoperability framework and conceptual model of the *DT* for research - the *DTE blueprint architecture*. We assume the blueprint architecture is an instrument to introduce a level of abstraction that is sufficient to meet the requirements of the use cases for which different *DTs* are designed. As illustrated below, the *interTwin* *DTE* is organized in three functional areas: *Infrastructure*, *Core* and *Thematic capabilities*.
 

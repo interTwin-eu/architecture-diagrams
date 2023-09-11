@@ -17,7 +17,7 @@ While specific details may vary based on industry and purpose, a typical Bluepri
 5. **Analysis and Simulation Module**: Tools and algorithms that allow the simulation of different scenarios and extract valuable insights from the data.
 6. **User Interface**: Visual tools and dashboards that allow users to interact with the *DT*, view data, and run simulations.
 7. **Security and Privacy**: Components ensuring the protection of data and operations of the *DT*.
-8. **Updates and Maintenance**: A system to keep the *DT up-to-date and reflect changes in the physical object or system.
+8. **Updates and Maintenance**: A system to keep the *DT* up-to-date and reflect changes in the physical object or system.
 9. **Machine Learning and AI Modules**: Sometimes, *DTs* use machine learning or artificial intelligence to enhance predictions or automate decisions.
 Governance and Management: Tools and protocols to manage the *DT*, ensure its proper operation, and make decisions based on its insights.
 

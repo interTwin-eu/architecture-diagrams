@@ -27,6 +27,3 @@ Part of the *DTE* architecture includes an infrastructure *DT* provider that off
 The security of *DTs* is essential to prevent a range of potential risks. These include unauthorised access, which could lead to manipulation or theft of data; threats to availability, which could cause disruptions in operations; durability risks, which could result in loss of data or system failures; and performance risks, which could adversely impact the efficiency and effectiveness of the *DT*'s simulations. Consequently, robust measures are required to safeguard against these varied types of security threats, as a compromised digital twin can lead to significant issues, both in the virtual and real world.
 
 Tha *Authentication and Authorization Infrastructure* (*AAI*) is key for Users, Developers and Providers, and represents an integral part of the *DTE* infrastructure. Key features of *AAI* include: data protection, integrity of simulations and workflows, trust and compliance, and securing interconnected systems (i.e., infrastructure).
-
-
-Nota: Quiza falta añadir lo de User Interface de los usuarios, un texto que hable de que el objetivo es que otras plataformas compatibles se puedan conectar, y un dibujo de la parte de la infrastructura donde se conectan con el PT.
